@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>運営紹介 | 🌃夜煌/𝑹𝑹𝑴𝑲🪐 #Re:Start</title>
+  <style>
+    /* トップバーのスタイル */
+    .topbar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: rgba(90, 40, 140, 0.9);
+      box-shadow: 0 2px 10px rgba(90, 40, 140, 0.7);
+      padding: 10px 20px;
+      z-index: 9999;
+      backdrop-filter: blur(8px);
+    }
+    .topbar .container {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .topbar .logo {
+      font-weight: 900;
+      font-size: 1.3rem;
+      color: #d6b3ff;
+      letter-spacing: 0.08em;
+    }
+    .topbar nav a {
+      color: #e3d5ff;
+      margin-left: 25px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .topbar nav a:hover {
+      color: #fff;
+      text-shadow: 0 0 8px #b19cd9;
+    }
+
+    /* 背景と本文スタイル */
+    body {
+      margin: 0;
+      font-family: 'Noto Sans JP', sans-serif;
+      color: #f0e6ff;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #6a0dad, #b19cd9, #9b30ff, #7b68ee);
+      background-size: 400% 400%;
+      animation: gradientShift 20s ease infinite;
+      padding: 80px 20px 40px;
+    }
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 900;
+      font-size: 2.4rem;
+      margin-bottom: 30px;
+      letter-spacing: 0.1em;
+      text-shadow: 0 0 10px #b19cd9;
+    }
+    .staff-list {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(30, 0, 60, 0.85);
+      border-radius: 12px;
+      padding: 25px 30px;
+      box-shadow: 0 0 20px rgba(150, 100, 200, 0.7);
+    }
+    .staff-member {
+      margin-bottom: 25px;
+      border-bottom: 1px solid #b19cd9;
+      padding-bottom: 15px;
+    }
+    .staff-member:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .staff-name {
+      font-weight: 900;
+      font-size: 1.3rem;
+      color: #dcd6f7;
+      margin-bottom: 6px;
+    }
+    .staff-role {
+      font-weight: 600;
+      color: #b19cd9;
+      margin-bottom: 6px;
+    }
+    .staff-desc {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #e0d9ff;
+    }
+  </style>
+</head>
+<body>
+  <!-- トップバー -->
+  <header class="topbar">
+    <div class="container">
+      <h1 class="logo">🌃夜煌/𝑹𝑹𝑴𝑲🪐 #Re:Start</h1>
+      <nav>
+        <a href="index.html">ホーム</a>
+        <a href="staff.html">運営紹介</a>
+        <a href="rule.html">ルール</a>
+        <a href="https://discord.gg/Vrv29Urb7c">JOIS US</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>運営紹介</h1>
+    <section class="staff-list">
+      <article class="staff-member">
+        <h2 class="staff-name">らるもけ</h2>
+        <p class="staff-role">最高管理者</p>
+      </article>
+      <article class="staff-member">
+        <h2 class="staff-name">uirusuniki</h2>
+        <p class="staff-role">最高管理者</p>
+      </article>
+      <article class="staff-member">
+        <h2 class="staff-name">ロシア民謡アレンジ</h2>
+        <p class="staff-role">鯖主</p>
+      </article>
+      <article class="staff-member">
+        <h2 class="staff-name">REC877</h2>
+        <p class="staff-role">鯖主</p>
+      </article>
+      <article class="staff-member">
+        <h2 class="staff-name">せぜ</h2>
+        <p class="staff-role">副鯖主</p>
+      </article>
+      <article class="staff-member">
+        <h2 class="staff-name">６代目科学者</h2>
+        <p class="staff-role">副鯖主</p>
+      </article>
+      <article class="staff-member">
+        <h2 class="staff-name">桜紅葉</h2>
+        <p class="staff-role">管理者</p>
+      </article>
+      <article class="staff-member">
+        <h2 class="staff-name">いろまと</h2>
+        <p class="staff-role">管理者</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
